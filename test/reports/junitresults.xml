@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="greeting functionality" timestamp="2016-11-30T22:51:25" hostname="localhost" time="21.729" errors="0" tests="3" skipped="0" disabled="0" failures="0">
+  <testcase classname="greeting functionality" name="Verify Greeting message" time="16.22" />
+  <testcase classname="greeting functionality" name="List of To-dos" time="2.786" />
+  <testcase classname="greeting functionality" name="add todos" time="2.72" />
+ </testsuite>
+ <testsuite name="Addition" timestamp="2016-11-30T22:51:47" hostname="localhost" time="6.574" errors="0" tests="1" skipped="0" disabled="0" failures="1">
+  <testcase classname="Addition" name="sum of 5+2 should be 7" time="6.574">
+   <failure type="toContain" message="Expected Function to contain &apos;1 + 2&apos;."><![CDATA[Error: Failed expectation
+    at Object.<anonymous> (/home/srikanth/workspace/protractor/test/spec.js:18:27)
+    at /usr/lib/node_modules/protractor/node_modules/jasminewd2/index.js:94:23
+    at new ManagedPromise (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1082:7)
+    at controlFlowExecute (/usr/lib/node_modules/protractor/node_modules/jasminewd2/index.js:80:18)
+    at TaskQueue.execute_ (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2913:14)
+    at TaskQueue.executeNext_ (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2896:21)
+    at asyncRun (/usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2820:25)
+    at /usr/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:639:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+</testsuites>
